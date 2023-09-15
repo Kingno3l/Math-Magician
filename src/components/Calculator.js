@@ -30,7 +30,7 @@ export default function Calculator() {
         <button type="button" onClick={buttonClick} className="items">
           %
         </button>
-        <button type="button" onClick={buttonClick} className="items orange">
+        <button type="button" onClick={buttonClick} className="items orangeColor">
           ÷
         </button>
         <button type="button" onClick={buttonClick} className="items">
@@ -42,7 +42,7 @@ export default function Calculator() {
         <button type="button" onClick={buttonClick} className="items">
           9
         </button>
-        <button type="button" onClick={buttonClick} className="items orange">
+        <button type="button" onClick={buttonClick} className="items orangeColor">
           x
         </button>
         <button type="button" onClick={buttonClick} className="items">
@@ -54,7 +54,7 @@ export default function Calculator() {
         <button type="button" onClick={buttonClick} className="items">
           6
         </button>
-        <button type="button" onClick={buttonClick} className="items orange">
+        <button type="button" onClick={buttonClick} className="items orangeColor">
           -
         </button>
         <button type="button" onClick={buttonClick} className="items">
@@ -66,16 +66,16 @@ export default function Calculator() {
         <button type="button" onClick={buttonClick} className="items">
           3
         </button>
-        <button type="button" onClick={buttonClick} className="items orange">
+        <button type="button" onClick={buttonClick} className="items orangeColor">
           +
         </button>
-        <button type="button" onClick={buttonClick} className="items long">
+        <button type="button" onClick={buttonClick} className="items longLength">
           0
         </button>
         <button type="button" onClick={buttonClick} className="items">
           .
         </button>
-        <button type="button" onClick={buttonClick} className="items orange">
+        <button type="button" onClick={buttonClick} className="items orangeColor">
           =
         </button>
       </div>
